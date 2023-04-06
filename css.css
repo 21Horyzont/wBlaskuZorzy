@@ -194,3 +194,7 @@ footer {
 #more {
     text-align: right;
 }
+#join img {
+    width: 40px;
+    height: auto;
+}
