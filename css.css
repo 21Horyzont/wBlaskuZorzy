@@ -21,50 +21,49 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-  }
-  
-  .logo-nav-wrapper {
+}
+
+.logo-nav-wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
     max-width: 800px;
     margin: 0 auto;
-  }
-  
-  #logo_szczep {
+}
+
+#logo_szczep {
     width: 10vh;
     height: auto;
-  }
-  
-  nav {
+}
+
+nav {
     margin-right: 10px;
-  }
-  
-  nav ul {
+}
+
+nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: flex-end;
     align-items: center;
-  }
-  
-  nav li {
+}
+nav li {
     margin-left: 20px;
-  }
-  
-  nav a {
+}
+
+nav a {
     color: #fff;
     text-decoration: none;
-  }
-  
-  nav a:hover {
+}
+
+nav a:hover {
     text-decoration: none;
     color: black;
     transition: 0.2s;
-  }
-  
+}
+
 main {
 	max-width: 800px;
 	margin: 100px auto 20px auto;
@@ -154,4 +153,33 @@ section {
 .button:hover {
 	background-color: #fff;
 	color: #003366;
+}
+@media only screen and (max-width: 600px) {
+    header{
+        height: 120px;
+    }
+    nav {
+        margin: 0;
+    }
+    
+    nav ul {
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    
+    nav li {
+        margin: 1.5px ;
+        margin-right: 50px ;
+        margin-bottom: 0;
+        padding: 0;
+    }
+    
+    nav a {
+        font-size: 16px;
+    }
+    
+    #logo_szczep {
+        width: 20vh;
+    }
 }
