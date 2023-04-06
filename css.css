@@ -187,3 +187,10 @@ section {
 footer {
     text-align: center;
 }
+#more a {
+    text-decoration: none;
+    color: rgb(105, 105, 105);
+}
+#more {
+    text-align: right;
+}
