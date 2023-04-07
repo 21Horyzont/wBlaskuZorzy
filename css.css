@@ -198,3 +198,71 @@ footer {
     width: 40px;
     height: auto;
 }
+
+/* Style for Information1 section */
+#information1 {
+	background-color: #fff;
+	padding: 40px;
+	box-shadow: 0px 0px 10px #888888;
+}
+
+#information1 h2 {
+	font-size: 28px;
+	margin-bottom: 20px;
+}
+
+#information1 p {
+	font-size: 18px;
+	line-height: 1.5;
+}
+
+/* Style for Information2 section */
+#information2 {
+	background-color: #f1f1f1;
+	padding: 40px;
+	box-shadow: 0px 0px 10px #888888;
+}
+
+#information2 h2 {
+	font-size: 28px;
+	margin-bottom: 20px;
+}
+#information2 p {
+	font-size: 18px;
+	line-height: 1.5;
+}
+
+/* Style for Information3 section */
+#information3 {
+	background-color: #fff;
+	padding: 40px;
+	box-shadow: 0px 0px 10px #888888;
+}
+
+#information3 h2 {
+	font-size: 28px;
+	margin-bottom: 20px;
+}
+
+#information3 p {
+	font-size: 18px;
+	line-height: 1.5;
+}
+
+/* Style for Information4 section */
+#information4 {
+	background-color: #f1f1f1;
+	padding: 40px;
+	box-shadow: 0px 0px 10px #888888;
+}
+
+#information4 h2 {
+	font-size: 28px;
+	margin-bottom: 20px;
+}
+
+#information4 p {
+	font-size: 18px;
+	line-height: 1.5;
+	margin-bottom: 20px;
+}
