@@ -185,7 +185,14 @@ section {
     }
 }
 footer {
-    text-align: center;
+	position: revert;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	text-align: center;
+}
+footer p {
+	margin: 0.5vh;
 }
 #more a {
     text-decoration: none;
