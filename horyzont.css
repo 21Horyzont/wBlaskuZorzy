@@ -1,0 +1,14 @@
+a {
+    color: black;
+    text-decoration: none;
+}
+#taian:hover {
+    text-decoration: none;
+    color: rgb(56, 197, 110);
+    transition: 0.2s;
+}
+#hono:hover {
+    text-decoration: none;
+    color: rgb(209, 56, 18);
+    transition: 0.2s;
+}
