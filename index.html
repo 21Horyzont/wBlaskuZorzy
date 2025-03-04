@@ -3,21 +3,43 @@
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>21 Szczep "W Blasku Zorzy"</title>
-	<link rel="stylesheet" type="text/css" href="index.css">
-    <link rel="shortcut icon" href="szczep_logo_white1.png">
+	<link rel="stylesheet" type="text/css" href="style/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="shortcut icon" href="multimedia/szczep_logo_white1.png">
 </head>
 <body>
 	<header>
         <div class="logo-nav-wrapper">
-        <a href='index.html'><img id='logo_szczep' src="szczep_logo_white1.png"></a>
-        <nav>
-            <ul>
-            <li><a href="horyzont.html">21 EŚDH Horyzont</a></li>
-            <li><a href="indianie.html">21 WDHNS <br/>Słoneczni Indianie</a></li>
-            <li><a href="misie.html">21 GZ "Misie Patysie"</a></li>
-            <li><a href="gvatan.html">35 DH Gvatan</a></li>
-            <li><a href="zywioly.html">35 GZ 4 Żywioły</a></li>
-            <li><a href="ventus.html">21 DW Ventus</a></li>
+        <a href='index.html'><img id='logo_szczep' src="multimedia/szczep_logo_white1.png"></a>
+        <nav class="navbar">
+            <ul class="menu">
+                <li class="dropdown">
+                    <button class="dropbtn">Gromady Zuchowe</button>
+                    <ul class="dropdown-content">
+                        <li><a href="pages/misie.html">21 GZ „Misie Patysie”</a></li>
+                        <li><a href="pages/zywioly.html">35 GZ „4 Żywioły”</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <button class="dropbtn">Drużyny Harcerskie</button>
+                    <ul class="dropdown-content">
+                        <li><a href="pages/horyzont.html">21 EŚDH „Horyzont”</a></li>
+                        <li><a href="pages/vademecum.html">1 DH „Vademecum”</a></li>
+                        <li><a href="pages/gvatan.html">35 DH „Gvatan”</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <button class="dropbtn">Drużyny Wędrownicze</button>
+                    <ul class="dropdown-content">
+                        <li><a href="pages/ventus.html">21 DW „Ventus”</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <button class="dropbtn">Drużyny Wielopoziomowe</button>
+                    <ul class="dropdown-content">
+                        <li><a href="pages/indianie.html">21 WDHNS <br/> „Słoneczni Indianie”</a></li>
+                    </ul>
+                </li>
             </ul>
         </nav>
         </div>
@@ -37,7 +59,7 @@
 		<section id="activities">
 			<h2>Aktualności</h2>
 			<p>Na ostatniej zbiórce <i>(31.03.2023r)</i> przybyło kilka nowych twarzy do rady szczepu. Dh. Aleksadra W, pion. Zuzanna G, sam. Aleksandra K oraz dh Dawid K. Zapewne zastanawiacie się czym jest rada szczepu, jest to... </p>
-			<p id="more"><a href="aktualnosci.html"><i>Czytaj więcej...</i></a></p>
+			<p id="more"><a href="subpage/aktualnosci.html"><i>Czytaj więcej...</i></a></p>
 		</section>
 
 		<section id="information1">
@@ -54,38 +76,45 @@
                             <li><i>pwd. Weronika Lisowska</i></li>
                             <li><i>pwd. Julia Kęska HO</i></li>
                             <li><i>pwd. Sławomir Lament HO</i></li>
-                            <li><i>sam. Aleksandra Kaczra</i></li>
+                            <li><i>sam. Aleksandra Kaczara</i></li>
                             <li><i>sam. Anna Mendakiewicz</i></li>
                             <li><i>sam. Natalia Kieres HO</i></li>
                             <li><i>pion. Zuzanna Gwizdała</i></li>
-                            <li><i>trop. Iga Modrzejewska</i></li>
                             <li><i>HO Bartek Kubiczek</i></li>
                             <li><i>ćwik Artur Krawczyk</i></li>
                             <li><i>dh. Dorota Lament</i></li>
-                            <li><i>dh. Aleksandra Widyma</i></li>
-                            <li><i>dh. Dawid Karch</i></li>
-                            <li><i>dh. Wiktoria Orkisz</i></li>
+                            <li><i>sam. Aleksandra Widyma</i></li>
+                            <li><i>dh Dawid Karch</i></li>
+                            <li><i>dh. Nicola Michańków</i></li>
                         </ul>
                     </li>
                 </ol>
             </p>
         </section>
-        
-		<section id="join">
-			<h2>Kontakt</h2>
-			<p>Zapraszamy do kontaktu z nami poprzez nasze media społecznościowe <br/>
-				A także bezpośrednio z Komendatką Szczepu: pwd. Karolina Lichota <br/>
-				E-mail: <i>karolina.lichota@zhp.net.pl</i> <br/>
-				Telefon: <i>505-388-506</i></p>
-				<a href="https://www.facebook.com/21szczep" target="_blank"><img src="facebook.png"></a>
-				<a href="https://www.instagram.com/21szczep/" target="_blank"><img src="instagram.png"></a><br/><br>
-		</section>
 	</main>
 
-	<footer>
-		<p>&copy; 2023-2024 Programiści 21 Szczepu "W Blasku Zorzy". Wszystkie prawa zastrzeżone.</p>
+	<footer class="footer">
+		<div class="footer-container">
+			<div class="footer-info">
+				<h3>Kontakt</h3>
+                <p>pwd. Karolina Lichota HO</p>
+				<p>Email: karolina.lichota@zhp.net.pl</p>
+				<p>Telefon: +48 505-388-506</p>
+			</div>
+	
+			<div class="footer-social">
+				<h3>Śledź nas</h3>
+				<a href="https://www.facebook.com/21szczep" target="_blank" class="social-icon"><i class="fab fa-facebook"></i></a>
+				<a href="https://www.instagram.com/21szczep/" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+			</div>
+		</div>
+		
+		<div class="footer-bottom">
+			<p>&copy; 2025 Programiści - 21 Szczepu „W Blasku Zorzy”. Wszelkie prawa zastrzeżone.</p>
+		</div>
 	</footer>
 
 	<script src="script.js"></script>
+    <script src="nav.js"></script>
 </body>
 </html>

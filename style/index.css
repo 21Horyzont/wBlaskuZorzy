@@ -1,0 +1,328 @@
+
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: lightgrey;
+}
+
+h1 {
+	margin: 0;
+	font-size: 36px;
+}
+
+header {
+    background-color: #0a4e0e;
+    color: #fff;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#logo_szczep {
+    width: 10vh;
+    height: auto;
+}
+
+.navbar {
+    background-color: #0a4e0e;
+    padding: 10px;
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+.menu > li {
+    position: relative;
+}
+
+.dropbtn {
+    background: #07460b;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+	font-weight: bold;
+}
+
+.dropbtn:hover {
+    background: #027c31;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background: white;
+    min-width: 200px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.dropdown-content li {
+    padding: 10px;
+}
+
+.dropdown-content li a {
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
+.dropdown-content li:hover {
+    background: #f1f1f1;
+}
+
+main {
+	max-width: 800px;
+	min-height: 80vh;
+	margin: 100px auto 20px auto;
+	padding: 20px;
+}
+
+section {
+	margin-bottom: 30px;
+}
+
+/* Style for About section */
+#about, #intro {
+	background-color: #fff;
+	padding: 40px;
+	box-shadow: 0px 0px 10px #888888;
+}
+
+#about, #intro h2 {
+	font-size: 28px;
+	margin-bottom: 20px;
+}
+
+#about, #intro p {
+	font-size: 18px;
+	line-height: 1.5;
+}
+
+/* Style for History, Obejctive and Konstytucja section */
+#history, #objective, #konstytucja {
+	background-color: #f1f1f1;
+	padding: 40px;
+	box-shadow: 0px 0px 10px #888888;
+}
+
+#history, #objective h2 {
+	font-size: 28px;
+	margin-bottom: 20px;
+}
+
+#history, #objective, #konstytucja p {
+	font-size: 18px;
+	line-height: 1.5;
+}
+
+#konstytucja h1, h2, h3 {
+	font-size: 28px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.line {
+	line-height: 12px;
+}
+
+/* Style for Activities and Constitution section */
+#activities, #constitution {
+	background-color: #fff;
+	padding: 40px;
+	box-shadow: 0px 0px 10px #888888;
+}
+
+#activities,#constitution h2 {
+	font-size: 28px;
+	margin-bottom: 20px;
+}
+
+#activities, #constitution p {
+	font-size: 18px;
+	line-height: 1.5;
+}
+
+/* Style for Information1 section */
+#information1 {
+	background-color: #fff;
+	padding: 40px;
+	box-shadow: 0px 0px 10px #888888;
+}
+
+#information1 h2 {
+	font-size: 28px;
+	margin-bottom: 20px;
+}
+
+#information1 p {
+	font-size: 18px;
+	line-height: 1.5;
+}
+
+/* Style for Join section */
+#join, #short {
+	background-color: #f1f1f1;
+	padding: 40px;
+	box-shadow: 0px 0px 10px #888888;
+}
+
+#join, #short h2 {
+	font-size: 28px;
+	margin-bottom: 20px;
+}
+
+#join, #short p {
+	font-size: 18px;
+	line-height: 1.5;
+	margin-bottom: 20px;
+}
+
+.button {
+	display: inline-block;
+	background-color: #003366;
+	color: #fff;
+	padding: 10px 20px;
+	border-radius: 5px;
+	text-decoration: none;
+}
+
+.button:hover {
+	background-color: #fff;
+	color: #003366;
+}
+
+#more a {
+    text-decoration: none;
+    color: rgb(105, 105, 105);
+}
+
+#more {
+    text-align: right;
+}
+
+#join img {
+    width: 40px;
+    height: auto;
+}
+
+/* Style for Information2 section */
+#information2 {
+	background-color: #f1f1f1;
+	padding: 40px;
+	box-shadow: 0px 0px 10px #888888;
+}
+
+#information2 h2 {
+	font-size: 28px;
+	margin-bottom: 20px;
+}
+#information2 p {
+	font-size: 18px;
+	line-height: 1.5;
+}
+
+/*Style for Footer*/
+
+.footer {
+    background-color: #0a4e0e;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.footer-info, .footer-social {
+    margin: 10px;
+}
+
+.footer-info h3, .footer-social h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.footer-info p {
+    margin: 5px 0;
+}
+
+.footer-social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social-icon {
+    font-size: 24px;
+    color: white;
+    margin: 5px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.social-icon:hover {
+    color: #f1c40f;
+}
+
+.footer-bottom {
+    background-color: #0b5f11;
+    padding: 10px;
+    font-size: 0.9em;
+}
+
+@media only screen and (max-width: 600px) {
+    header{
+        height: 110px;
+    }
+    nav {
+        margin: 0;
+    }
+    
+    nav ul {
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    
+    nav li {
+        margin: 1.5px ;
+        margin-right: 50px ;
+        margin-bottom: 0;
+        padding: 0;
+    }
+    
+    nav a {
+        font-size: 16px;
+    }
+    
+    #logo_szczep {
+        padding: 10px;
+        width: 17vh;
+    }
+}
